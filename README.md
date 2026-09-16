@@ -1,5 +1,24 @@
 # Book of Snapper
 
+## Foreword
+
+This proof of concept and its documentation were generated entirely with
+[Claude Code](https://claude.com/claude-code). It may contain errors —
+the same caveat that applies to any resource you'd find freely on the web.
+
+I had three goals going into this:
+
+- A real operational need: validate whether `snapper` on Ubuntu could
+  serve as a rollback net ahead of a major OS upgrade campaign.
+- Test how much an AI coding agent could actually carry a proof of
+  concept like this — not just write code, but drive real infrastructure
+  work end to end.
+- Produce enough documentation along the way that my colleagues, and the
+  wider community, could benefit from it too.
+
+I'm genuinely happy with how it turned out. Claude saved me days of work
+on this.
+
 A field guide to OS-level rollback on Linux: snapper, btrfs, LVM, GRUB,
 initramfs, kexec, and how they fit together to make a package upgrade
 (or a full release upgrade) safely reversible without a reinstall. Written
