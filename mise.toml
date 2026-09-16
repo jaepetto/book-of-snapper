@@ -1,0 +1,3 @@
+[tasks.check]
+description = "Scan for org-identifying strings before publishing"
+run = "./scripts/check-sanitization.sh"
